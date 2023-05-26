@@ -22,7 +22,7 @@ const productSchema = new mongoose.Schema({
         type:Number,
     },
     Created_At:{
-        type:Date,
+        type:String,
         required:[true,"Please Provide Date of Product Creation"],
     },
     Company:{
